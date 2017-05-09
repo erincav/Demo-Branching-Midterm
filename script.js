@@ -45,7 +45,7 @@ $(document).ready(function(){
         if ($(this).hasClass('reservedSeat')){
 
             alert('Sorry, this seat is already reserved SUCKA!');
-
+            // alert('Thank You!!');
             form.hide();
         }
 
@@ -93,12 +93,18 @@ $(document).ready(function(){
 */
 
 /*1*/ $("#submit").on("click",function getName(){
+
+
 /*2*/     var firstName =$("#firstName").val();
 /*3*/     var lastName=$("#lastName").val();
 /*4*/     var email =$("#email").val();
 /*5*/     var phoneNumber =$("#phoneNumber").val();
 /*6*/     var seatNumber = $('#seatNumber').val();
+
       $('input[type="text"],[type="email"],[type="phoneNumber"], textarea').val('');
+      // $("#submit").on("click",function(){
+
+      });
 
 /* 7. The below section creates an empty object,
       and assigns the variables above to the appropriate
@@ -143,6 +149,7 @@ seatArray.each(function(index, element){
 
  }
 
+
 });
 
 /*9 closes submit onclick*/
@@ -152,6 +159,7 @@ seatArray.each(function(index, element){
 
   //  $('[data-toggle="tooltip"]').tooltip();
 
+// };
+// });
 
-
-}); /*closes the jQuery document ready function */
+// }); /*closes the jQuery document ready function */
