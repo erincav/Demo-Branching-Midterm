@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 /*3*/    $('#seatNumber').val(id);
 
-/*4*/    form.slideDown(900);
+/*4*/    form.slideDown(800);
 
         if ($(this).hasClass('reservedSeat')){
 
