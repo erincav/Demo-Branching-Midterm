@@ -4,7 +4,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   background-color: lightblue;
-  background-image:url('cinema2.jpg');
+  background-image:url('movie2.jpg');
   background-repeat: no-repeat;
   background-size:cover;
 }
