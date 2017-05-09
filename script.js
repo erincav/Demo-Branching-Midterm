@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 /*3*/    $('#seatNumber').val(id);
 
-/*4*/    form.slideDown(1000);
+/*4*/    form.slideDown(900);
 
         if ($(this).hasClass('reservedSeat')){
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
       });
 
-
+///so these are more comments on line 54
 
 // /*Form Focus & Hide*/
 //       function showHideFormQues(i){
@@ -77,8 +77,8 @@ $(document).ready(function(){
 /*2*/       var divId = $(this).attr('id');
 
 /*3*/       people.forEach(function(index){
-/*4*/             if( divId === index.seatNumber);
-/*5*/                  console.log(index.name);
+/*4*/         if( divId === index.seatNumber);
+/*5*/         console.log(index.name);
                 });
       });
 
